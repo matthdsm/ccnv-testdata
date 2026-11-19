@@ -9,13 +9,11 @@
     "chrY": 300000
   },
   "germline_ref_5kb": {
-    "autosomal_verdict": "WARN",
     "branches": [
       "autosomal",
       "female_sex",
       "male_sex"
     ],
-    "ref_qc_verdict": "WARN",
     "sample_count": 12,
     "sample_sexes": [
       "female",
@@ -36,13 +34,16 @@
     "expected_error": "SchemaVersionError"
   },
   "ref_qc_fail_masked_male": {
-    "ref_qc_verdict": "FAIL"
+    "ref_qc_verdict": "FAIL",
+    "sample_count": 12
   },
   "ref_qc_pass_autosomal": {
-    "ref_qc_verdict": "PASS"
+    "ref_qc_verdict": "PASS",
+    "sample_count": 16
   },
   "ref_qc_warn_flat": {
     "flat": true,
-    "ref_qc_verdict": "WARN"
+    "ref_qc_verdict": "WARN",
+    "sample_count": 0
   }
 }

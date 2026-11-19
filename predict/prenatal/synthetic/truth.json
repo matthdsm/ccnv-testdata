@@ -2,14 +2,13 @@
   "reference": "prenatal_ref_synthetic.ccnv",
   "samples": {
     "chry_del_high_mw_xy": {
-      "active_ff": 0.1006,
-      "calls": [
+      "events": [
         {
           "call": "loss",
           "contig": "chrY",
           "discordance_reason": null,
           "discordant": false,
-          "end": 1200000,
+          "end": 1000000,
           "origin_call": null,
           "start": 600000
         }
@@ -19,37 +18,31 @@
       "frag_warnings": [
         "WARN_HIGH_LEUKOCYTE_DNA"
       ],
-      "gain_calls": 0,
       "gestation": "singleton",
-      "loss_calls": 1,
+      "planted_ff": 0.18,
       "sca_call": "XY",
       "twin_call": "MM"
     },
     "euploid_xx": {
-      "active_ff": 0.1092,
-      "calls": [],
+      "events": [],
       "fetal_sex": "F",
       "file": "euploid_xx.ccnv",
-      "gain_calls": 0,
       "gestation": "singleton",
-      "loss_calls": 0,
+      "planted_ff": 0.1,
       "sca_call": "XX",
       "twin_call": "FF"
     },
     "euploid_xy": {
-      "active_ff": 0.1247,
-      "calls": [],
+      "events": [],
       "fetal_sex": "M",
       "file": "euploid_xy.ccnv",
-      "gain_calls": 0,
       "gestation": "singleton",
-      "loss_calls": 0,
+      "planted_ff": 0.12,
       "sca_call": "XY",
       "twin_call": "MM"
     },
     "maternal_dup_xx": {
-      "active_ff": 0.1051,
-      "calls": [
+      "events": [
         {
           "call": "gain",
           "contig": "chr3",
@@ -62,26 +55,22 @@
       ],
       "fetal_sex": "F",
       "file": "maternal_dup_xx.ccnv",
-      "gain_calls": 1,
       "gestation": "singleton",
-      "loss_calls": 0,
+      "planted_ff": 0.1,
       "sca_call": "XX",
       "twin_call": "FF"
     },
     "sca_xo": {
-      "active_ff": 0.1122,
-      "calls": [],
+      "events": [],
       "fetal_sex": "F",
       "file": "sca_xo.ccnv",
-      "gain_calls": 0,
       "gestation": "singleton",
-      "loss_calls": 0,
-      "sca_call": "DISCORDANT_MIXED",
+      "planted_ff": 0.14,
+      "sca_call": "XO",
       "twin_call": "FF"
     },
     "trisomy_chr2_xy": {
-      "active_ff": 0.1604,
-      "calls": [
+      "events": [
         {
           "call": "gain",
           "contig": "chr2",
@@ -94,20 +83,19 @@
       ],
       "fetal_sex": "M",
       "file": "trisomy_chr2_xy.ccnv",
-      "gain_calls": 1,
       "gestation": "singleton",
-      "loss_calls": 0,
+      "planted_ff": 0.16,
       "sca_call": "XY",
       "twin_call": "MM"
     },
     "twin_fm": {
-      "active_ff": 0.1731,
-      "calls": [],
+      "events": [],
       "fetal_sex": "M",
       "file": "twin_fm.ccnv",
-      "gain_calls": 0,
       "gestation": "twin",
-      "loss_calls": 0,
+      "planted_female_ff": 0.15,
+      "planted_ff": 0.22,
+      "planted_male_ff": 0.07,
       "sca_call": "XY",
       "twin_call": "FM"
     }
