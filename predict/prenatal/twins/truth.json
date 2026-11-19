@@ -1,0 +1,149 @@
+{
+  "reference": "../../../reference/schema_2.0/NIPS.GRCh38-noalt.100kb.ccnv",
+  "samples": {
+    "twin_ff_01": {
+      "file": "twin_ff_01.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FF",
+      "expected_fetal_sexes": [
+        "F",
+        "F"
+      ],
+      "expected_fetal_sex": "F",
+      "bin_size": 5000,
+      "effective_reads_kept": 14367709
+    },
+    "twin_ff_02": {
+      "file": "twin_ff_02.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FF",
+      "expected_fetal_sexes": [
+        "F",
+        "F"
+      ],
+      "expected_fetal_sex": "F",
+      "bin_size": 5000,
+      "effective_reads_kept": 13918327
+    },
+    "twin_ff_03": {
+      "file": "twin_ff_03.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FF",
+      "expected_fetal_sexes": [
+        "F",
+        "F"
+      ],
+      "expected_fetal_sex": "F",
+      "bin_size": 5000,
+      "effective_reads_kept": 16857039
+    },
+    "twin_fm_01": {
+      "file": "twin_fm_01.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FM",
+      "expected_fetal_sexes": [
+        "F",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 12899040
+    },
+    "twin_fm_02": {
+      "file": "twin_fm_02.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FM",
+      "expected_fetal_sexes": [
+        "F",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 6418181
+    },
+    "twin_fm_03": {
+      "file": "twin_fm_03.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FM",
+      "expected_fetal_sexes": [
+        "F",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 20695815
+    },
+    "twin_fm_04": {
+      "file": "twin_fm_04.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "FM",
+      "expected_fetal_sexes": [
+        "F",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 11450686
+    },
+    "twin_mm_01": {
+      "file": "twin_mm_01.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "MM",
+      "expected_fetal_sexes": [
+        "M",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 13944088
+    },
+    "twin_mm_02": {
+      "file": "twin_mm_02.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "MM",
+      "expected_fetal_sexes": [
+        "M",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 12737150
+    },
+    "twin_mm_03": {
+      "file": "twin_mm_03.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "MM",
+      "expected_fetal_sexes": [
+        "M",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 14172092
+    },
+    "twin_mm_04": {
+      "file": "twin_mm_04.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "MM",
+      "expected_fetal_sexes": [
+        "M",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 17459931
+    },
+    "twin_mm_05": {
+      "file": "twin_mm_05.ccnv",
+      "gestation": "twin",
+      "expected_twin_call": "MM",
+      "expected_fetal_sexes": [
+        "M",
+        "M"
+      ],
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 14492466
+    }
+  }
+}

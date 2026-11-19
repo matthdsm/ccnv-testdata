@@ -1,0 +1,99 @@
+{
+  "reference": "../../../reference/synthetic_cohort/germline_ref_5kb.ccnv",
+  "samples": {
+    "cnv_events_female": {
+      "calls": [
+        {
+          "call": "loss",
+          "contig": "chr1",
+          "copy_number": 0,
+          "end": 140000,
+          "ratio": -9.146,
+          "start": 100000
+        },
+        {
+          "call": "loss",
+          "contig": "chr1",
+          "copy_number": 0,
+          "end": 200000,
+          "ratio": -9.305,
+          "start": 140000
+        },
+        {
+          "call": "loss",
+          "contig": "chr2",
+          "copy_number": 1,
+          "end": 250000,
+          "ratio": -1.022,
+          "start": 150000
+        },
+        {
+          "call": "gain",
+          "contig": "chr3",
+          "copy_number": 3,
+          "end": 325000,
+          "ratio": 0.6,
+          "start": 200000
+        }
+      ],
+      "file": "cnv_events_female.ccnv",
+      "gain_calls": 1,
+      "loss_calls": 3,
+      "sex": "female"
+    },
+    "euploid_female": {
+      "calls": [],
+      "file": "euploid_female.ccnv",
+      "gain_calls": 0,
+      "loss_calls": 0,
+      "sex": "female"
+    },
+    "euploid_male": {
+      "calls": [],
+      "file": "euploid_male.ccnv",
+      "gain_calls": 0,
+      "loss_calls": 0,
+      "sex": "male"
+    },
+    "lowpass_homdel_male": {
+      "calls": [
+        {
+          "call": "loss",
+          "contig": "chr1",
+          "copy_number": 0,
+          "end": 275000,
+          "ratio": -4.775,
+          "start": 150000
+        }
+      ],
+      "file": "lowpass_homdel_male.ccnv",
+      "gain_calls": 0,
+      "loss_calls": 1,
+      "sex": "male"
+    },
+    "sex_cnv_amp_male": {
+      "calls": [
+        {
+          "call": "gain",
+          "contig": "chr4",
+          "copy_number": 4,
+          "end": 275000,
+          "ratio": 1.297,
+          "start": 150000
+        },
+        {
+          "call": "loss",
+          "contig": "chrX",
+          "copy_number": 0,
+          "end": 650000,
+          "ratio": -8.238,
+          "start": 400000
+        }
+      ],
+      "file": "sex_cnv_amp_male.ccnv",
+      "gain_calls": 1,
+      "loss_calls": 1,
+      "sex": "male"
+    }
+  }
+}

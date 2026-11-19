@@ -1,0 +1,115 @@
+{
+  "reference": "prenatal_ref_synthetic.ccnv",
+  "samples": {
+    "chry_del_high_mw_xy": {
+      "active_ff": 0.1006,
+      "calls": [
+        {
+          "call": "loss",
+          "contig": "chrY",
+          "discordance_reason": null,
+          "discordant": false,
+          "end": 1200000,
+          "origin_call": null,
+          "start": 600000
+        }
+      ],
+      "fetal_sex": "M",
+      "file": "chry_del_high_mw_xy.ccnv",
+      "frag_warnings": [
+        "WARN_HIGH_LEUKOCYTE_DNA"
+      ],
+      "gain_calls": 0,
+      "gestation": "singleton",
+      "loss_calls": 1,
+      "sca_call": "XY",
+      "twin_call": "MM"
+    },
+    "euploid_xx": {
+      "active_ff": 0.1092,
+      "calls": [],
+      "fetal_sex": "F",
+      "file": "euploid_xx.ccnv",
+      "gain_calls": 0,
+      "gestation": "singleton",
+      "loss_calls": 0,
+      "sca_call": "XX",
+      "twin_call": "FF"
+    },
+    "euploid_xy": {
+      "active_ff": 0.1247,
+      "calls": [],
+      "fetal_sex": "M",
+      "file": "euploid_xy.ccnv",
+      "gain_calls": 0,
+      "gestation": "singleton",
+      "loss_calls": 0,
+      "sca_call": "XY",
+      "twin_call": "MM"
+    },
+    "maternal_dup_xx": {
+      "active_ff": 0.1051,
+      "calls": [
+        {
+          "call": "gain",
+          "contig": "chr3",
+          "discordance_reason": "SUPER_FETAL_RATIO",
+          "discordant": true,
+          "end": 2000000,
+          "origin_call": "MATERNAL_UNINHERITED",
+          "start": 500000
+        }
+      ],
+      "fetal_sex": "F",
+      "file": "maternal_dup_xx.ccnv",
+      "gain_calls": 1,
+      "gestation": "singleton",
+      "loss_calls": 0,
+      "sca_call": "XX",
+      "twin_call": "FF"
+    },
+    "sca_xo": {
+      "active_ff": 0.1122,
+      "calls": [],
+      "fetal_sex": "F",
+      "file": "sca_xo.ccnv",
+      "gain_calls": 0,
+      "gestation": "singleton",
+      "loss_calls": 0,
+      "sca_call": "DISCORDANT_MIXED",
+      "twin_call": "FF"
+    },
+    "trisomy_chr2_xy": {
+      "active_ff": 0.1604,
+      "calls": [
+        {
+          "call": "gain",
+          "contig": "chr2",
+          "discordance_reason": null,
+          "discordant": false,
+          "end": 2500000,
+          "origin_call": "FETAL_CONSTITUTIONAL",
+          "start": 0
+        }
+      ],
+      "fetal_sex": "M",
+      "file": "trisomy_chr2_xy.ccnv",
+      "gain_calls": 1,
+      "gestation": "singleton",
+      "loss_calls": 0,
+      "sca_call": "XY",
+      "twin_call": "MM"
+    },
+    "twin_fm": {
+      "active_ff": 0.1731,
+      "calls": [],
+      "fetal_sex": "M",
+      "file": "twin_fm.ccnv",
+      "gain_calls": 0,
+      "gestation": "twin",
+      "loss_calls": 0,
+      "sca_call": "XY",
+      "twin_call": "FM"
+    }
+  }
+}

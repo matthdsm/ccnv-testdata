@@ -1,0 +1,50 @@
+[
+  {
+    "filepath": "samples/ctrl_f01.ccnv",
+    "sex": "F"
+  },
+  {
+    "filepath": "samples/ctrl_f02.ccnv",
+    "sex": "F"
+  },
+  {
+    "filepath": "samples/ctrl_f03.ccnv",
+    "sex": "F"
+  },
+  {
+    "filepath": "samples/ctrl_f04.ccnv",
+    "sex": "F"
+  },
+  {
+    "filepath": "samples/ctrl_f05.ccnv",
+    "sex": "F"
+  },
+  {
+    "filepath": "samples/ctrl_f06.ccnv",
+    "sex": "F"
+  },
+  {
+    "filepath": "samples/ctrl_m01.ccnv",
+    "sex": "M"
+  },
+  {
+    "filepath": "samples/ctrl_m02.ccnv",
+    "sex": "M"
+  },
+  {
+    "filepath": "samples/ctrl_m03.ccnv",
+    "sex": "M"
+  },
+  {
+    "filepath": "samples/ctrl_m04.ccnv",
+    "sex": "M"
+  },
+  {
+    "filepath": "samples/ctrl_m05.ccnv",
+    "sex": "M"
+  },
+  {
+    "filepath": "samples/ctrl_m06.ccnv",
+    "sex": "M"
+  }
+]

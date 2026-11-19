@@ -1,0 +1,32 @@
+{
+  "reference": "../../../reference/schema_2.0/NIPS.GRCh38-noalt.100kb.ccnv",
+  "samples": {
+    "sca_xo_01": {
+      "file": "sca_xo_01.ccnv",
+      "gestation": "singleton",
+      "expected_sca_call": "XO",
+      "karyotype": "45,X",
+      "expected_fetal_sex": "F",
+      "bin_size": 5000,
+      "effective_reads_kept": 13006258
+    },
+    "sca_xxx_01": {
+      "file": "sca_xxx_01.ccnv",
+      "gestation": "singleton",
+      "expected_sca_call": "XXX",
+      "karyotype": "47,XXX",
+      "expected_fetal_sex": "F",
+      "bin_size": 5000,
+      "effective_reads_kept": 13134002
+    },
+    "sca_xxy_01": {
+      "file": "sca_xxy_01.ccnv",
+      "gestation": "singleton",
+      "expected_sca_call": "XXY",
+      "karyotype": "47,XXY",
+      "expected_fetal_sex": "M",
+      "bin_size": 5000,
+      "effective_reads_kept": 13033825
+    }
+  }
+}

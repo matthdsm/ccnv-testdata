@@ -1,0 +1,48 @@
+{
+  "bin_size": 5000,
+  "contig_lengths": {
+    "chr1": 625000,
+    "chr2": 625000,
+    "chr3": 625000,
+    "chr4": 625000,
+    "chrX": 1800000,
+    "chrY": 300000
+  },
+  "germline_ref_5kb": {
+    "autosomal_verdict": "WARN",
+    "branches": [
+      "autosomal",
+      "female_sex",
+      "male_sex"
+    ],
+    "ref_qc_verdict": "WARN",
+    "sample_count": 12,
+    "sample_sexes": [
+      "female",
+      "female",
+      "female",
+      "female",
+      "female",
+      "female",
+      "male",
+      "male",
+      "male",
+      "male",
+      "male",
+      "male"
+    ]
+  },
+  "incompatible_v1_sample": {
+    "expected_error": "SchemaVersionError"
+  },
+  "ref_qc_fail_masked_male": {
+    "ref_qc_verdict": "FAIL"
+  },
+  "ref_qc_pass_autosomal": {
+    "ref_qc_verdict": "PASS"
+  },
+  "ref_qc_warn_flat": {
+    "flat": true,
+    "ref_qc_verdict": "WARN"
+  }
+}
